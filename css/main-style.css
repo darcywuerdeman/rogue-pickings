@@ -1,0 +1,142 @@
+/*****Base Styles*****/
+
+@font-face {font-family: Mission-Script;
+  src:url(fonts/mission-script) format('opentype');
+
+}
+body{
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  font-weight: 550;
+}
+
+
+/******Grid******/
+
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width{
+  width: 600px;
+  float: left;
+}
+
+.third-width{
+  width: 400px;
+  float: left;
+}
+
+/*****Header*****/
+
+header h1 {
+  font-size:30px;
+  font-weight: 700;
+  text-transform:uppercase;
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+nav{
+  float: right;
+  padding: 10px;
+}
+
+nav ul li {
+  display:inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  color: #77a466;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 25px;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+/*****About*****/
+
+#about img{
+  border-image-source: url('..img/hero-image.png');
+  border-top: solid thick #77a466;
+  border-bottom: solid thick #77a466;
+
+
+}
+
+#about h2 {
+  font-size: 18px;
+  color: #77a466;
+  text-transform: uppercase;
+  line-height: 25px;
+}
+
+#about p {
+  font-size: 16pt;
+  line-height: 25pt;
+  font-weight: 550;
+
+}
+
+/*****Content*****/
+#content img#line-1{
+  position:relative;
+  top: 5px;
+}
+
+#content h3 {
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#content ul{
+  list-style: none;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+#content ul li {
+  text-transform: uppercase;
+  color: #77a466;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+#content div img#vertical-line-1 {
+  float: left;
+  padding: 0 30px 0 30px;
+}
+
+#content div img#vertical-line-2{
+  float:left;
+  padding: 0 30px 0 30px;
+}
+
+/*****Footer*****/
+#slogan img#line-2{
+  position:relative;
+  bottom:15px;
+}
+
+#slogan {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 35px;
+}
+
+#slogan span{
+  font-family: "mission-script";
+  text-transform: lowercase;
+  color: #77a466;
+  font-weight: lighter;
+}
